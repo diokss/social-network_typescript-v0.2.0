@@ -1,0 +1,29 @@
+.Button {
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    background-color: #F6F7F8;
+    padding: 0 30px;
+    color: #68758C;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.Button:disabled {
+    background-color: rgb(187, 187, 187);
+}
+
+.negative {}
+
+.primary {
+    background-color: #377DFF;
+    color: white;
+}
+
+.shadow {
+    -webkit-box-shadow: 0px 0px 11px 0px #000000;
+    box-shadow: 0px 0px 11px 0px #000000;
+}

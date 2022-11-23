@@ -1,0 +1,55 @@
+.User-card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.User-card__top{
+    display: flex;
+    flex-grow: 1;
+}
+
+.User-card__top__avatar{
+    margin-right: 10px;
+}
+
+.User-card__top__avatar-image{
+    width: 70px;
+    height: 70px;
+}
+
+.User-card__top__info__name{
+    margin-bottom: 10px;
+    height: 10px;
+}
+.User-card__top__info__name span{
+    color: #5E6C84;
+    font-size: 16px;
+    font-weight: 500;
+}
+.User-card__top__info__status{
+    height: 50px;
+}
+
+.User-card__top__info__status span{
+    font-size: 14px;
+    color: gray;
+}
+
+.User-card__bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.User-card__bottom__button{
+    height: 30px;
+    width: 150px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}

@@ -1,0 +1,28 @@
+.Messenger-dialog-link{
+    display: flex;
+    width: 300px;
+    font-size: 14px;
+    /* border:1px solid black; */
+    /* border-radius: 10px; */
+    /* padding: 5px; */
+}
+
+.Messenger-dialog-link__left{
+    height: 100%;
+    width: 50px;
+    flex-grow: 0;
+}
+
+.Messenger-dialog-link__left__user-avatar{
+    height: 40px;
+    width: 40px;
+}
+
+
+.Messenger-dialog-link__right{
+    flex-grow: 1;
+}
+
+.Messenger-dialog-link__right__name{
+    font-weight: 600;
+}

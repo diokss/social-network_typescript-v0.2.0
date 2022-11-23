@@ -1,0 +1,46 @@
+.Header{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+
+
+.Header__logo{
+    display: flex;
+    height: 100%;
+    width: 250px;
+    align-items: center;
+}
+.Header__logo :nth-child(1n){
+    display: flex;
+    align-items: center;
+}
+
+.Header__element{
+    align-self: center;
+    height: 40px;
+}
+.Header__logo-icon{
+    width: 40px;
+}
+
+.Header__search-input-container{
+    max-width: 500px;
+    min-width: 100px;
+    width: 100%;
+}
+
+.Header__logo-title{
+    font-size: 18px;
+    font-weight: 600;
+    color: #626F86;
+}
+
+.Header__user{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+
+}

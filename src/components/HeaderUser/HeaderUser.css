@@ -1,0 +1,11 @@
+.Header-user{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.Header-user span{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}

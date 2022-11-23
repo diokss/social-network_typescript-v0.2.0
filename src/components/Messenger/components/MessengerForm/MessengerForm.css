@@ -1,0 +1,10 @@
+.Messanger-form{
+    display: flex;
+    height: 100%;
+}
+
+.Messanger-form__btn{
+    width: 100px;
+    height: 50px;
+    margin-left: 10px;
+}

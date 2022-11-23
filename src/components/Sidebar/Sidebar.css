@@ -1,0 +1,24 @@
+.Sidebar{
+    padding: 10px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+}
+
+.Sidebar__element{
+ 
+}
+.Sidebar-element{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.2s;
+    border-radius: 5px;
+}
+
+.Sidebar-element:hover{
+    background-color: rgb(233, 232, 232);
+    /* color: white; */
+}

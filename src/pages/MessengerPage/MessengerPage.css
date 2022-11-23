@@ -1,0 +1,10 @@
+.Messenger-page{
+    background-color: #F9FAFB;
+    max-height: calc(100% - 22px);
+    padding: 20px 20px 0 20px;
+}
+
+
+.Messange-page__messenge{
+    max-height: 100%;
+}

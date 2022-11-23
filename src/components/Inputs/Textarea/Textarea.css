@@ -1,0 +1,10 @@
+.Textarea{
+    height: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    resize: none;
+    padding: 10px;
+    font-size: 12px;
+}
