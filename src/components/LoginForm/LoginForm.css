@@ -2,6 +2,7 @@
     height: 350px;
     max-width: 400px;
     width: 100%;
+ 
 }
 
 .Login-form__title{
@@ -12,6 +13,7 @@
     height: 30px;
     font-size: 24px;
     font-weight: 700;
+    color: #4E5D78;
 }
 
 .Login-form__directional{
@@ -45,4 +47,24 @@
 
 .Login-form__btn{
     height: 50px;
+}
+
+.Login-form__register{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Login-form__register span{
+    margin-right: 10px;
+    color: #4E5D78;
+}
+
+.Login-form__register a{
+    color: #377DFF;
+    cursor: pointer; 
+}
+
+.Login-form__register a:hover{
+    text-decoration: underline;
 }

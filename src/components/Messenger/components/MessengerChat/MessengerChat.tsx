@@ -4,6 +4,7 @@ import './MessengerChat.css'
 import classNames from 'classnames'
 import Textarea from '../../../Inputs/Textarea/Textarea'
 import Button from '../../../Button/Button'
+import MessengerForm from '../MessengerForm/MessengerForm'
 
 let authUserId = 19902
 
@@ -23,14 +24,6 @@ const Message: React.FC<Message> = ({ className, userId }) => {
 }
 
 
-const MessengerForm: React.FC = () => {
-    return (
-        <div className='Messanger-form'>
-            <div className="Messanger-form__textarea-block"><Textarea placeholder='Text here...' className='Messanger-form__textarea-block__textarea'/></div>
-            <Button className='Messanger-form__btn primary'>Send</Button>
-        </div>
-    )
-}
 
 
 const MessengerChat: React.FC = () => {

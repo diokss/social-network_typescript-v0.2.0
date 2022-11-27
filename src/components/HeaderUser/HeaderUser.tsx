@@ -17,9 +17,10 @@ const HeaderUser: React.FC<HeaderUserProps> = React.memo((props) => {
     }
 
     return (
-        <div className='Header-user' onClick={logOut}>
-           <UserAvatar style={{width:40,height:40}} image='https://wp-s.ru/wallpapers/7/2/554287374001059/devushka-lara-kroft-s-lukom-i-strelami.jpg'/>
-            <span>{props.login}</span>
+        <div className='Header-user'>
+           {/* <UserAvatar style={{width:40,height:40}} image='https://wp-s.ru/wallpapers/7/2/554287374001059/devushka-lara-kroft-s-lukom-i-strelami.jpg'/> */}
+            <span>{props.login} |</span>
+            <span onClick={logOut}>LogOut</span>
         </div>
     )
 })
