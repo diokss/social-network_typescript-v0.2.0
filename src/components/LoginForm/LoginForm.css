@@ -49,22 +49,22 @@
     height: 50px;
 }
 
-.Login-form__register{
+.Login-form__registration{
     margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.Login-form__register span{
+.Login-form__registration span{
     margin-right: 10px;
     color: #4E5D78;
 }
 
-.Login-form__register a{
+.Login-form__registration a{
     color: #377DFF;
     cursor: pointer; 
 }
 
-.Login-form__register a:hover{
+.Login-form__registration a:hover{
     text-decoration: underline;
 }
