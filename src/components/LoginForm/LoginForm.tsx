@@ -41,7 +41,7 @@ const LoginForm: React.FC = () => {
             <div className="Login-form__field"><PasswordInput onChange={handleChangePassword} value={password} className='Login-form__field__password' placeholder='passoword'/></div>
             <div className='Login-form__checkbox'><Checkbox onChange={handleChangeRemember} checked={rememberMe}/><span>Remember me</span></div>
             <div className="Login-form__btn"><Button className='primary'>Submit</Button></div>
-            <div className='Login-form__register'>
+            <div className='Login-form__registration'>
                 <span>You haven't any account?</span><a href='https://social-network.samuraijs.com/signUp' target="_blank">Sing Up</a>
             </div>
         </form>
